@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+<img src="{{asset('images/bg-clotho.jpg')}}" width="100%" height="100%" >
+<section>
+
+<h1>Tisses ta propre destinée!</h1>
+<p>Un outil numérique pour créer, organiser
+et faire vivre votre univers de jeude rôle.... Sans papiers, sans prise de tête.</p>
+<button><a href="{{path('app_register')}}">Je commence</a></button>
+
+
+</section>
+<section>
+<h2>Pourquoi choisir Clotho ? </h2>
+<p>Tu en as marre de te perdredans le chaos
+que puisses engendrer tes feuilles volantes? Est ce que tu n’en peux plus
+de refaire tes fiches car la gomme a 
+eu raison de celle-ci? </p>
+<p>Clotho te propose de faire tes prores fiches numérique de personnage joueurs,
+PNJ ou ennemis, d’organiser ta partie via
+un espace joueurs et MJ. Tu peux aussi importer des cartes ou autre infos que 
+tu as créées en externe. </p>
+</section>
+
+
+{% endblock %}

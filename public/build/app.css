@@ -1,0 +1,188 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!./assets/styles/app.css ***!
+  \**************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Irish+Grover&family=Italiana&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!./assets/styles/app.css (1) ***!
+  \******************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Irish+Grover&family=Italiana&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!./assets/styles/app.css (2) ***!
+  \******************************************************************************************************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Irish Grover";
+}
+
+body {
+  background-color: #11324A;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Irish Grover";
+}
+
+body {
+  background-color: #11324A;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cookie-container {
+  background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  width: 25rem;
+  height: 15rem;
+  border-radius: 1.2rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  z-index: 6;
+}
+.cookie-container .text {
+  width: 70%;
+}
+.cookie-container .logo-cookie {
+  transform: scale(0.6);
+  width: 12rem;
+  height: 12rem;
+}
+.cookie-container .cookie-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.cookie-container .cookie-subtitle {
+  font-weight: lighter;
+  padding: 0.5rem 0rem;
+}
+.cookie-container button {
+  border-style: none;
+  padding: 0.5rem 1rem;
+  color: #4f2626;
+  font-size: 0.7rem;
+  border-radius: 0.4rem;
+  color: #4f2626;
+  font-family: "Poppins", sans-serif;
+}
+
+.invisible {
+  display: none;
+}
+
+@media screen and (max-width: 528px) {
+  .cookie-container {
+    width: 100%;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  height: 10rem;
+  width: 100%;
+  background-color: #703d18;
+  color: #D37204;
+}
+footer .socialnav {
+  margin-top: 0.5rem;
+  gap: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer .socialnav a {
+  display: block;
+}
+footer .utilnav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+footer .utilnav a {
+  text-decoration: none;
+  display: block;
+  color: #D37204;
+}
+
+.connect {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #D37204;
+}
+.connect h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Irish Grover";
+}
+.connect input, .connect label {
+  margin: 10px 0;
+  line-height: 2, 5;
+}
+.connect input {
+  width: 100%;
+  border-radius: 1rem;
+}
+.connect label {
+  font-size: 1.5rem;
+}
+.connect .btn-form {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  background-color: #703d18;
+  color: #D37204;
+}
+.connect .checkdiv {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.connect .checkdiv input {
+  width: 8%;
+}
+.connect .checkdiv label {
+  font-size: 1rem;
+}
+.connect a {
+  text-decoration: none;
+  color: #D37204;
+}
+
+@media screen and (min-width: 528px) {
+  .connect input {
+    width: 25%;
+  }
+  .connect .checkdiv {
+    width: 20%;
+  }
+}
+/*# sourceMappingURL=app.css.map */
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmNzcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUlBO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7QUNESjs7QURJQTtFQUVJLHlCRWJTO0VGY1Q7RUFDQTtFQUNBO0VBQ0E7RUFDQTtBQ0ZKOztBRFpBO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7QUNlSjs7QURaQTtFQUVJLHlCRWJTO0VGY1Q7RUFDQTtFQUNBO0VBQ0E7RUFDQTtBQ2NKOztBRTlCQTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FGaUNKO0FFL0JBO0VBQ0k7QUZpQ0o7QUUvQkE7RUFDSTtFQUNBO0VBQ0E7QUZpQ0o7QUUvQkE7RUFDSTtFQUNBO0FGaUNKO0FFL0JBO0VBQ0k7RUFDQTtBRmlDSjtBRTFCQTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FGNEJKOztBRXBCQTtFQUNJO0FGdUJKOztBRW5CQTtFQUlJO0lBQ0k7RUZtQk47QUFDRjtBR25GQTtFQUVJO0VBQ0E7RUFDQTtFQUVBO0VBQ0E7RUFDQTtFQUNBLHlCRlZJO0VFV0osY0ZUSztBRDRGVDtBR2pGSTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7QUhtRlI7QUdqRlE7RUFDSTtBSG1GWjtBRzdFSTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7QUgrRVI7QUczRVE7RUFDSTtFQUNBO0VBQ0EsY0ZyQ0g7QURrSFQ7O0FJcEhBO0VBRUk7RUFDQTtFQUNBO0VBQ0E7RUFDQSxjSEpLO0FEMEhUO0FJbkhJO0VBQ0k7RUFDQTtFQUNBO0FKcUhSO0FJbEhJO0VBQ0k7RUFDQTtBSm9IUjtBSWpISTtFQUNJO0VBQ0E7QUptSFI7QUloSFE7RUFDQTtBSmtIUjtBSTdHSTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0EseUJIcENBO0VHcUNBLGNIbkNDO0FEa0pUO0FJeEdJO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7QUowR1I7QUl4R1k7RUFDSjtBSjBHUjtBSXZHSTtFQUNJO0FKeUdSO0FJbEdJO0VBQ0k7RUFDQSxjSDlEQztBRGtLVDs7QUloR0E7RUFHSTtJQUNJO0VKaUdOO0VJOUZFO0lBQ0k7RUpnR047QUFDRjtBQUNBLGtDQUFrQyxDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vYXNzZXRzL3N0eWxlcy9wYXJ0aWFscy9fYmFzZS5zY3NzIiwid2VicGFjazovLy8uL2Fzc2V0cy9zdHlsZXMvYXBwLmNzcyIsIndlYnBhY2s6Ly8vLi9hc3NldHMvc3R5bGVzL3BhcnRpYWxzL3V0aWxzL19jb2xvcnMuc2NzcyIsIndlYnBhY2s6Ly8vLi9hc3NldHMvc3R5bGVzL3BhcnRpYWxzL2NvbXBvbmVudHMvX2Nvb2tpZS5zY3NzIiwid2VicGFjazovLy8uL2Fzc2V0cy9zdHlsZXMvcGFydGlhbHMvY29tcG9uZW50cy9fZm9vdGVyLnNjc3MiLCJ3ZWJwYWNrOi8vLy4vYXNzZXRzL3N0eWxlcy9wYXJ0aWFscy9jb21wb25lbnRzL19mb3JtLnNjc3MiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/

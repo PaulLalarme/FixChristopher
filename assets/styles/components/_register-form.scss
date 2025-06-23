@@ -1,0 +1,103 @@
+@import "../utils/colors";
+
+.form-wrapper{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+.sign{
+
+    border: 1px solid red;
+    margin: 4rem 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $text;
+ 
+
+    h1{
+        margin-bottom : 1rem;
+        font-size: 2rem;     
+        font-family: 'Irish Grover';
+
+    }
+    
+    input,label{
+        margin: 1rem 0;
+
+    }
+
+    label{
+        font-size: 1.5rem;
+    }
+
+    input{
+        width : 100%;
+        border-radius: 1rem;
+        height: 2.5rem;
+    }
+
+    .agree-div{
+        width: 200px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+
+        input{
+            width: 10%;
+            height: 75%;
+        }
+
+    }
+  
+
+    .btn-signform{
+        margin-top: 20px;
+        padding: 0.8rem;
+        border-radius: 10px;
+        background-color: $card;
+        color: $text;
+        font-size: 1.2rem;
+        width: 80%;
+       
+    
+    }
+
+
+    a{
+        text-decoration: none;
+        color: $text
+    }
+}
+}
+
+@media screen and (min-width: 528px ){
+   .sign{
+
+    width:  45%;
+    height: 100%;
+    h1{
+        font-size: 3.5rem;
+    }
+
+    label{
+        font-size: 2rem;
+    }
+
+    input{
+        width: 25%;
+    }
+
+    .btn-signform{
+        width: 15%;
+        font-size: 2rem;
+    }
+   } 
+    
+}

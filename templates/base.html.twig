@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>">
+        <link rel="stylesheet" href="{{asset('styles/app.css')}}">
+        {% block stylesheets %}
+
+        {% endblock %}
+
+    </head>
+        <header>
+          <a href ="{{path('app_accueil')}}">  <h4>CLOTHO</h4> </a>
+            <nav>
+                {% if not app.user %}
+                    <a href="{{ path('app_register') }}">Inscription</a>
+                    <a href="{{ path('app_login') }}">Connexion</a>
+                {% else %}
+                    {# Sinon, on propose Déconnexion (et/ou profil) #}
+                    {# <a href="{{ path('app_profile') }}">Mon Profil</a> #}
+                    <a href="{{ path('app_logout') }}">Déconnexion</a>
+                {% endif %}
+            </nav>
+        </header>
+    <body>
+        {% block body %}{% endblock %}
+    </body>
+            <footer>
+                <nav class="socialnav">
+                    <a href="#"><img src="{{asset('images/facebook.svg')}}" ></a>
+                    <a href="#"><img src="{{asset('images/instagram.svg')}}"></a>
+                    <a href="#"><img src="{{asset('images/discord.svg')}}"></a>
+                </nav>
+                <nav class="utilnav">
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="mailto:christopherdevaux2@gmail.com?subject= Prise de contact&amp;body= J'aimerais faire votre connaissance">Contact</a>
+                    <a href="#">Mentions légales</a>
+                    <p>© Tout droits réservés 2025</p>
+                </nav>
+            </footer>
+</html>

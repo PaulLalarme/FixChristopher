@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Card{% endblock %}
+
+{% block body %}
+    <h1>Card</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ card.id }}</td>
+            </tr>
+            <tr>
+                <th>Image</th>
+                <td>{{ card.image }}</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>{{ card.name }}</td>
+            </tr>
+            <tr>
+                <th>Classe</th>
+                <td>{{ card.classe }}</td>
+            </tr>
+            <tr>
+                <th>Niveau</th>
+                <td>{{ card.niveau }}</td>
+            </tr>
+            <tr>
+                <th>Pv</th>
+                <td>{{ card.pv }}</td>
+            </tr>
+            <tr>
+                <th>PvMax</th>
+                <td>{{ card.pvMax }}</td>
+            </tr>
+            <tr>
+                <th>Pm</th>
+                <td>{{ card.pm }}</td>
+            </tr>
+            <tr>
+                <th>PmMax</th>
+                <td>{{ card.pmMax }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_card_index') }}">back to list</a>
+
+    <a href="{{ path('app_card_edit', {'id': card.id}) }}">edit</a>
+
+    {{ include('card/_delete_form.html.twig') }}
+{% endblock %}

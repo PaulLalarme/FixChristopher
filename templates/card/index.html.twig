@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Card index{% endblock %}
+
+{% block body %}
+
+<div class="title-container">
+    <h1>Choix du personnage</h1>
+    <a href="{{ path('app_card_new') }}"><img src="{{asset('images/add.png')}}" ></a>
+</div>
+    <div class="card-container">
+        {% for card in cards %}
+
+        <div class="card">
+            <div class=" img-wrap">
+               <p>{{ card.id }}</p>
+                <img src="{{ card.image }}">
+            </div>
+            <div class ="infos">
+                <div class="player-info">
+                 <p>{{ card.name }}</p>
+                 <p>{{ card.classe }}</p>
+                 </div>
+                <div class="lvl">
+                 <p>Niveau : {{ card.niveau }}</p>
+                 </div>
+                 <div class="team-info">
+                    <p>{{card.team}}</p>
+                    <p>{{ card.role }}<p>
+                </div>
+            </div>
+                <div class="action">
+                    <a href="{{ path('app_card_show', {'id': card.id}) }}"><img src="{{asset('images/bin.svg')}}" ></a>
+                    <a href="{{ path('app_card_edit', {'id': card.id}) }}"><img class="pen" src="{{asset('images/pencil.svg')}}" ></a>
+                </div>
+
+        </div>
+
+
+        {% else %}
+
+                <p >no records found</p>
+
+        {% endfor %}
+        </div>
+{% endblock %}

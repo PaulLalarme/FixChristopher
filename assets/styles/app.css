@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Irish Grover";
+  font-size: 10px;
+}
+
+html {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #11324A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  margin: 2rem 0;
+  width: 70%;
+  text-align: center;
+}
+section p {
+  margin-top: 1rem;
+  color: #D37204;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #D37204;
+  margin-top: 2rem;
+}
+
+h2 {
+  color: #D37204;
+  font-size: 2.5rem;
+}
+
+button {
+  align-content: center;
+  padding: 1rem;
+  background-color: #703d18;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+button a {
+  font-size: 1rem;
+  color: #D37204;
+  text-decoration: none;
+}
+
+header {
+  margin: 0;
+  height: 15%;
+  width: 100%;
+  background-color: #703d18;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #D37204;
+}
+header h4 {
+  font-size: 3.5rem;
+}
+header a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #D37204;
+  font-size: 1.5rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+  background-color: #703d18;
+  color: #D37204;
+}
+footer .socialnav {
+  margin-top: 0.5rem;
+  gap: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer .socialnav a {
+  display: block;
+}
+footer .socialnav a img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+footer .utilnav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 0.5rem;
+}
+footer .utilnav a {
+  text-decoration: none;
+  display: block;
+  color: #D37204;
+  font-size: 1.5rem;
+}
+footer .utilnav p {
+  font-size: 1.5rem;
+}
+
+.form-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-wrapper .sign {
+  border: 1px solid red;
+  margin: 4rem 0;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #D37204;
+}
+.form-wrapper .sign h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-family: "Irish Grover";
+}
+.form-wrapper .sign input, .form-wrapper .sign label {
+  margin: 1rem 0;
+}
+.form-wrapper .sign label {
+  font-size: 1.5rem;
+}
+.form-wrapper .sign input {
+  width: 100%;
+  border-radius: 1rem;
+  height: 2.5rem;
+}
+.form-wrapper .sign .agree-div {
+  width: 200px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+.form-wrapper .sign .agree-div input {
+  width: 10%;
+  height: 75%;
+}
+.form-wrapper .sign .btn-signform {
+  margin-top: 20px;
+  padding: 0.8rem;
+  border-radius: 10px;
+  background-color: #703d18;
+  color: #D37204;
+  font-size: 1.2rem;
+  width: 80%;
+}
+.form-wrapper .sign a {
+  text-decoration: none;
+  color: #D37204;
+}
+
+@media screen and (min-width: 528px) {
+  .sign {
+    width: 45%;
+    height: 100%;
+  }
+  .sign h1 {
+    font-size: 3.5rem;
+  }
+  .sign label {
+    font-size: 2rem;
+  }
+  .sign input {
+    width: 25%;
+  }
+  .sign .btn-signform {
+    width: 15%;
+    font-size: 2rem;
+  }
+}
+.connect {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 1.5rem;
+}
+.connect h1 {
+  color: #D37204;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.connect label {
+  color: #D37204;
+  font-size: 1.5rem;
+}
+.connect input {
+  width: 75%;
+  border-radius: 1rem;
+  height: 2.5rem;
+}
+.connect .checkdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 75%;
+}
+.connect .checkdiv label input {
+  width: 10%;
+  height: 75%;
+}
+.connect button {
+  align-self: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #D37204;
+  background-color: #703d18;
+  width: 50%;
+  font-size: 1.6rem;
+}
+.connect a {
+  color: #D37204;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 528px) {
+  .connect h1 {
+    font-size: 3.5rem;
+  }
+  .connect label {
+    font-size: 2rem;
+  }
+  .connect input {
+    width: 15%;
+  }
+  .connect button {
+    font-size: 2rem;
+    width: 10%;
+  }
+  .connect .checkdiv {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 45%;
+  }
+  .connect .checkdiv label input {
+    width: 10%;
+    height: 75%;
+  }
+  .connect .forget {
+    font-size: 1.5rem;
+  }
+}
+.title-container {
+  height: 7%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #2D1E08;
+}
+.title-container h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.title-container a img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.card-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container .card {
+  width: 90%;
+  height: 20%;
+  margin: 3rem 0;
+  background-color: #E5D490;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 1rem;
+  box-shadow: 0 6px 4px 0;
+}
+.card-container .card .img-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+}
+.card-container .card .img-wrap p {
+  display: none;
+}
+.card-container .card .img-wrap img {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+}
+.card-container .card .infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+.card-container .card .lvl {
+  display: flex;
+  justify-content: space-around;
+}
+.card-container .card .lvl p {
+  font-size: 1.5rem;
+}
+.card-container .card .player-info {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0.8rem 0;
+}
+.card-container .card .player-info p {
+  font-size: 2rem;
+}
+.card-container .card .team-info {
+  margin: 0.8rem 0;
+  display: flex;
+  justify-content: center;
+}
+.card-container .card .team-info p {
+  font-size: 2rem;
+}
+.card-container .card .action {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+.card-container .card .action img {
+  height: 2rem;
+  width: 2rem;
+}
+.card-container .card .action .pen {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+@media screen and (min-width: 520px) {
+  .title-container {
+    height: 10%;
+  }
+  .title-container h1 {
+    font-size: 2rem;
+  }
+  .title-container img {
+    height: 3rem;
+    width: 3rem;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .card-container .card {
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 60%;
+    border-radius: 1rem;
+  }
+  .card-container .card .img-wrap {
+    width: 100%;
+    flex-direction: column;
+  }
+  .card-container .card .img-wrap img {
+    width: 100%;
+    height: 200px;
+    border-radius: 1rem 1rem 0 0;
+  }
+  .card-container .card .infos {
+    text-align: center;
+    display: flex;
+  }
+  .card-container .card .action {
+    margin-top: 3rem;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
