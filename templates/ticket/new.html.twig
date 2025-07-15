@@ -7,17 +7,18 @@
 
 {{ form_start(form, {attr: {class: 'row g-3'}}) }}
     <div class="col-12">
-        {{ form_row(form.title)}}
+        {{ form_row(form.title) }}
     </div>
     <div class="col-12">
-        {{ form_row(form.description)}}
+        {{ form_row(form.description) }}
     </div>
     <div class="col-12">
-        {{ form_row(form.priority)}}
+        {{ form_row(form.priority) }}
     </div>
     <div class="col-12">
-        {{ form_row(form.status)}}
+        {{ form_row(form.status) }}
     </div>
     <button type="submit" class="btn-form" arial-label="Bouton de validation">Je m'inscris</button>
     <a href="{{ path('app_ticket_index') }}">back to list</a>
+{{ form_end(form) }}
 {% endblock %}

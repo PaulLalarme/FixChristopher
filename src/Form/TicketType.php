@@ -24,12 +24,8 @@ class TicketType extends AbstractType
             ])
             ->add('status', ChoiceType::class, [
                 'choices' => Status::cases(),
-                'choice_label' => fn(Status $s) =>$s->name,
-                'choice_value' => fn(?Status $s) =>$s?->value,
-            ])
-
-            ->add('created_at', null, [
-                'widget' => 'single_text',
+                'choice_label' => fn(Status $s) => $s->name,
+                'choice_value' => fn(?Status $s) => $s?->value,
             ])
         ;
     }
