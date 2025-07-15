@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    height: 100px;
+    background-color: rgb(230, 157, 22);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header  h1{
+    font-size: 3rem;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(58, 69, 221);
+}
+
+h1{
+    margin: 1rem 0;
+}
+
+.register{
+    align-self: center;
+}
+
+.login, .register{
+
+    width: 50%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login h1 , .login label, .logout, .register, h1{
+    color: white;
+}
+
+.login a{
+    color: rgb(230, 157, 22);
+}
+
+.btn-form{
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: rgb(45, 214, 16);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+
+}
+
+
